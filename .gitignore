@@ -21,3 +21,4 @@ outputs/
 
 # system files
 .DS_Store
+backups/

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# environments
+.venv/
+venv/
+env/
+
+# Hugging Face / cache
+hf_cache/
+.cache/
+wandb/
+
+# generated heavy outputs
+outputs/
+*.pt
+*.pth
+*.safetensors
+
+# system files
+.DS_Store

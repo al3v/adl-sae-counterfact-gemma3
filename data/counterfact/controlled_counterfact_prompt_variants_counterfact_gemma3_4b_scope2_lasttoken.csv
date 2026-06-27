@@ -1,0 +1,81 @@
+fact_id,case_id,split,relation_id,subject,template,variant_id,prompt,correct_answer,target_true,target_new
+cf_20952,20952,test,P30,Angola,{} is located in,original,Angola is located in,Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,leading_space, Angola is located in,Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,trailing_space,Angola is located in ,Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,double_first_space,Angola  is located in,Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,lower_first_char,angola is located in,Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,newline_before_prompt,"
+Angola is located in",Africa,Africa,Antarctica
+cf_20952,20952,test,P30,Angola,{} is located in,period_added,Angola is located in.,Africa,Africa,Antarctica
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,original,What is the twin city of Shanghai? It is,Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,leading_space, What is the twin city of Shanghai? It is,Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,trailing_space,What is the twin city of Shanghai? It is ,Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,double_first_space,What  is the twin city of Shanghai? It is,Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,lower_first_char,what is the twin city of Shanghai? It is,Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,newline_before_prompt,"
+What is the twin city of Shanghai? It is",Barcelona,Barcelona,Dresden
+cf_3648,3648,test,P190,Shanghai,What is the twin city of {}? It is,period_added,What is the twin city of Shanghai? It is.,Barcelona,Barcelona,Dresden
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,original,2011 Cannes Film Festival can be found in,Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,leading_space, 2011 Cannes Film Festival can be found in,Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,trailing_space,2011 Cannes Film Festival can be found in ,Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,double_first_space,2011  Cannes Film Festival can be found in,Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,lower_first_char,2011 Cannes Film Festival can be found in,Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,newline_before_prompt,"
+2011 Cannes Film Festival can be found in",Cannes,Cannes,Prescott
+cf_819,819,test,P276,2011 Cannes Film Festival,{} can be found in,period_added,2011 Cannes Film Festival can be found in.,Cannes,Cannes,Prescott
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",original,"Delta Goodrem, that originated in",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",leading_space," Delta Goodrem, that originated in",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",trailing_space,"Delta Goodrem, that originated in ",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",double_first_space,"Delta  Goodrem, that originated in",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",lower_first_char,"delta Goodrem, that originated in",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",newline_before_prompt,"
+Delta Goodrem, that originated in",Australia,Australia,India
+cf_9012,9012,test,P495,Delta Goodrem,"{}, that originated in",period_added,"Delta Goodrem, that originated in.",Australia,Australia,India
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",original,"Google Patents, a product developed by",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",leading_space," Google Patents, a product developed by",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",trailing_space,"Google Patents, a product developed by ",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",double_first_space,"Google  Patents, a product developed by",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",lower_first_char,"google Patents, a product developed by",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",newline_before_prompt,"
+Google Patents, a product developed by",Google,Google,Microsoft
+cf_8024,8024,test,P178,Google Patents,"{}, a product developed by",period_added,"Google Patents, a product developed by.",Google,Google,Microsoft
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",original,"Lady Gaga, the",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",leading_space," Lady Gaga, the",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",trailing_space,"Lady Gaga, the ",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",double_first_space,"Lady  Gaga, the",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",lower_first_char,"lady Gaga, the",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",newline_before_prompt,"
+Lady Gaga, the",piano,piano,violin
+cf_7314,7314,test,P1303,Lady Gaga,"{}, the",period_added,"Lady Gaga, the.",piano,piano,violin
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,original,The twin city of Cologne is,Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,leading_space, The twin city of Cologne is,Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,trailing_space,The twin city of Cologne is ,Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,double_first_space,The  twin city of Cologne is,Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,lower_first_char,the twin city of Cologne is,Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,newline_before_prompt,"
+The twin city of Cologne is",Beijing,Beijing,Cairo
+cf_4572,4572,test,P190,Cologne,The twin city of {} is,period_added,The twin city of Cologne is.,Beijing,Beijing,Cairo
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,original,Institut Polaire originated in,Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,leading_space, Institut Polaire originated in,Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,trailing_space,Institut Polaire originated in ,Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,double_first_space,Institut  Polaire originated in,Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,lower_first_char,institut Polaire originated in,Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,newline_before_prompt,"
+Institut Polaire originated in",Perth,Perth,Budapest
+cf_3358,3358,test,P740,Institut Polaire,{} originated in,period_added,Institut Polaire originated in.,Perth,Perth,Budapest
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,original,The language of Allegro Non Troppo was,Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,leading_space, The language of Allegro Non Troppo was,Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,trailing_space,The language of Allegro Non Troppo was ,Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,double_first_space,The  language of Allegro Non Troppo was,Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,lower_first_char,the language of Allegro Non Troppo was,Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,newline_before_prompt,"
+The language of Allegro Non Troppo was",Italian,Italian,Serbian
+cf_17870,17870,test,P364,Allegro Non Troppo,The language of {} was,period_added,The language of Allegro Non Troppo was.,Italian,Italian,Serbian
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",original,"Thenewno2, that was created in",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",leading_space," Thenewno2, that was created in",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",trailing_space,"Thenewno2, that was created in ",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",double_first_space,"Thenewno2,  that was created in",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",lower_first_char,"thenewno2, that was created in",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",newline_before_prompt,"
+Thenewno2, that was created in",London,London,Leicester
+cf_2848,2848,test,P740,Thenewno2,"{}, that was created in",period_added,"Thenewno2, that was created in.",London,London,Leicester

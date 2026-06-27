@@ -1,0 +1,4 @@
+{
+  "caption": "Distance gap between correct_wrong and wrong_wrong pairs",
+  "description": "Grouped bar chart showing how much larger the correct_wrong pair distance is compared with wrong_wrong pairs."
+}

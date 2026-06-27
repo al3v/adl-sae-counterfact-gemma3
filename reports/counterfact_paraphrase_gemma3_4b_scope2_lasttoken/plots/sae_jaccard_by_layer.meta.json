@@ -1,0 +1,4 @@
+{
+  "caption": "Mean Jaccard distance by layer and pair type",
+  "description": "Jaccard distance between active SAE feature sets for the two paraphrases of each fact."
+}

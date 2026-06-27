@@ -1,0 +1,4 @@
+{
+  "caption": "Mean cosine distance by layer and pair type",
+  "description": "Cosine distance between the two paraphrase prompts for each fact, split by pair type."
+}

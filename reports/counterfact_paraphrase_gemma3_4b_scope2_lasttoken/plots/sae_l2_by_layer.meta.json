@@ -1,0 +1,4 @@
+{
+  "caption": "Mean L2 distance by layer and pair type",
+  "description": "L2 distance between dense SAE activation vectors for the two paraphrases of each fact."
+}
